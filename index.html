@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Sale o no sale</title>
+</head>
+<body>
+
+    <div class="tablero">
+        <div class="numerosIzquierda">
+            <div class="numero numIzq">$1</div>
+            <div class="numero numIzq">$2</div>
+            <div class="numero numIzq">$5</div>
+            <div class="numero numIzq">$10</div>
+            <div class="numero numIzq">$20</div>
+            <div class="numero numIzq">$50</div>
+            <div class="numero numIzq">$75</div>
+            <div class="numero numIzq">$100</div>
+            <div class="numero numIzq">$250</div>
+            <div class="numero numIzq">$500</div>
+            <div class="numero numIzq">$750</div>
+        </div>
+
+        <div class="listaMaletines">
+            <div class="filaMaletines">
+                <div id="case0" class="maletin" onclick="clickCase(0)">1</div>
+                <div id="case1" class="maletin" onclick="clickCase(1)">2</div>
+                <div id="case2" class="maletin" onclick="clickCase(2)">3</div>
+                <div id="case3" class="maletin" onclick="clickCase(3)">4</div>
+                <div id="case4" class="maletin" onclick="clickCase(4)">5</div>
+                <div id="case5" class="maletin" onclick="clickCase(5)">6</div>
+            </div>
+            <div class="filaMaletines">
+                <div id="case6" class="maletin" onclick="clickCase(6)">7</div>
+                <div id="case7" class="maletin" onclick="clickCase(7)">8</div>
+                <div id="case8" class="maletin" onclick="clickCase(8)">9</div>
+                <div id="case9" class="maletin" onclick="clickCase(9)">10</div>
+                <div id="case10" class="maletin" onclick="clickCase(10)">11</div>
+                <div id="case11" class="maletin" onclick="clickCase(11)">12</div>
+            </div>
+            <div class="filaMaletines">
+                <div id="case12" class="maletin" onclick="clickCase(12)">13</div>
+                <div id="case13" class="maletin" onclick="clickCase(13)">14</div>
+                <div id="case14" class="maletin" onclick="clickCase(14)">15</div>
+                <div id="case15" class="maletin" onclick="clickCase(15)">16</div>
+                <div id="case16" class="maletin" onclick="clickCase(16)">17</div>
+                <div id="case17" class="maletin" onclick="clickCase(17)">18</div>
+            </div>
+            <div class="filaMaletines">
+                <div id="case18" class="maletin" onclick="clickCase(18)">19</div>
+                <div id="case19" class="maletin" onclick="clickCase(19)">20</div>
+                <div id="case20" class="maletin" onclick="clickCase(20)">21</div>
+                <div id="case21" class="maletin" onclick="clickCase(21)">22</div>
+            </div>
+            
+            <div class="bottomInfo">
+                <div class="containerMaletinUsuario">
+                    <p class="txtTuMaletin">SELECCIONA TU MALETÍN</p>
+                    <div id="userSelectedCase" class="maletin maletinUsuario">?</div>
+                </div>
+                <div class="containerSeleccionar">
+                    <div class="containerSelecInterior">
+                        <p class="txtMaletQueSeleccionar">SELECCIONA</p>
+                        <p class="cantidadMaletines">1</p>
+                        <p class="txtMaletQueSeleccionar">MALETÍN</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="numerosDerecha">
+            <div class="numero numDer">$1,000</div>
+            <div class="numero numDer">$3,000</div>
+            <div class="numero numDer">$5,000</div>
+            <div class="numero numDer">$10,000</div>
+            <div class="numero numDer">$15,000</div>
+            <div class="numero numDer">$20,000</div>
+            <div class="numero numDer">$35,000</div>
+            <div class="numero numDer">$50,000</div>
+            <div class="numero numDer">$75,000</div>
+            <div class="numero numDer">$100,000</div>
+            <div class="numero numDer">$250,000</div>
+        </div>
+    </div>
+
+
+    <!-- <div id="modalMaletinSeleccionado" class="modal">
+        <div class="modalContent">
+            <div class="containerSelecInterior textoBlanco">
+                <p class="txtMaletQueSeleccionar">ESTE MALETÍN CONTENÍA</p>
+                <p class="cantidadMaletines">$5000</p>
+                <button class="btnCerrarModal">Cerrar</button>
+            </div>
+        </div>
+    </div> -->
+
+
+
+    <!-- <div id="modalOfertaBanquero" class="modal">
+        <div class="modalContent">
+            <div class="containerSelecInterior textoBlanco">
+                <p class="txtMaletQueSeleccionar">OFERTA DEL BANQUERO</p>
+                <p class="cantidadMaletines">$6667</p>
+                <br><br><br>
+                <p class="txtMaletQueSeleccionar">Ofertas anteriores</p>
+                <p class="txtMaletQueSeleccionar">1</p>
+                <p class="txtMaletQueSeleccionar">2</p>
+                <p class="txtMaletQueSeleccionar">3</p>
+                <p class="txtMaletQueSeleccionar">4</p>
+
+                <button class="btnCerrarModal">Cerrar</button>
+            </div>
+        </div>
+    </div> -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>

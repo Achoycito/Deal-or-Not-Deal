@@ -1,0 +1,152 @@
+html{
+    font-size: 10px;
+}
+body{
+    display: flex;
+    font-family: 'Agency FB';
+    background-color: rgb(20, 20, 20);
+}
+
+.tablero{
+    display: flex;
+    width: 160rem;
+    margin: 2rem auto;
+}
+
+.numero{
+    margin: 1.5rem; /* 10px */
+    padding: 0.5rem;
+    border: 0.6rem solid;
+    text-align: center;
+    font-family: 'Rockwell';
+    font-size: 3rem; /* antes 25px */
+    color: white;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(
+        45deg,
+        #94524e 0,
+        #cb9b51 22%,
+        #f6e27a 45%,
+        #f6f2c0 50%,
+        #f6e27a 55%,
+        #cb9b51 78%,
+        #94524e 100%
+    );
+    cursor: default;
+}
+.numIzq{
+    background-color: blue;
+}
+.numDer{
+    background-color: red;
+}
+
+.numerosIzquierda, .numerosDerecha {
+    width: 15%;
+    margin: auto auto;
+}
+
+.listaMaletines{
+    width: 70%;
+    padding: 2rem; /* 20px */
+    margin: 2rem; /* 20px */
+    border-radius: 2rem;
+    background-color: rgb(40, 40, 40);
+}
+.filaMaletines{
+    display: flex;
+}
+.maletin{
+    width: 9rem; /* 70px */
+    margin: 2rem auto; /* 20px auto */
+    padding: 1.2rem; /* 10px */
+    background-color: lightgrey;
+    border: 0.3rem solid rgb(185, 185, 185);
+    border-radius: 0.7rem;
+    cursor: pointer;
+    font-family: 'Rockwell';
+    font-size: 4.5rem; /* 35px */
+    text-align: center;
+}
+
+
+.bottomInfo{
+    width: 60%;
+    display: flex;
+    margin: 2rem auto;
+}
+
+.containerMaletinUsuario{
+    width: 50%;
+    padding: 2rem;
+}
+.txtTuMaletin{
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+}
+.maletinUsuario{
+    width: 11.5rem;
+    border-radius: 0.7rem;
+    font-size: 6rem;
+    cursor: default;
+}
+
+
+.containerSeleccionar{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    color: white;
+    font-weight: bold;
+}
+.containerSelecInterior{
+    width: 100%;
+}
+.containerSelecInterior p{
+    text-align: center;
+    margin: auto;
+}
+.txtMaletQueSeleccionar{
+    font-size: 3rem;
+}
+.cantidadMaletines{
+    font-size: 5rem;
+}
+
+.textoBlanco{
+    color: white;
+}
+
+
+.modal{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modalContent{
+    display: flex;
+    width: 40%;
+    padding: 3rem;
+    margin: 10% auto;
+    background-color:rgb(41, 41, 41);
+}
+
+.btnCerrarModal{
+    font-size: 2.5rem;
+    margin: 0rem;
+    padding: 1rem;
+    float: right;
+    cursor: pointer;
+}
+
+
+
+
